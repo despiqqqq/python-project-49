@@ -8,12 +8,13 @@ def main():
     print(f'Hello, {name}')
     print('Answer "yes" if the number is even, otherwise answer "no"')
     answer = True
+    c = 0  # счетчик правильных ответов
 
     while answer is True:
         random_number = random.randint(1, 1000)
         print(f'Question: {random_number}')
         res = prompt.string('Your answer: ')
-        c = 0  # счетчик правильных ответов
+
         if (random_number % 2 == 0 and res == 'yes') or (random_number % 2 == 1 and res == 'no'):
             print('Correct!')
             c += 1
