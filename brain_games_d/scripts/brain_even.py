@@ -1,11 +1,10 @@
 import prompt
 import random
+from brain_games import main as intro_main
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    name = intro_main()
     print('Answer "yes" if the number is even, otherwise answer "no"')
     answer = True
     c = 0  # счетчик правильных ответов

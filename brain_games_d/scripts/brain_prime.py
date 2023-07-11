@@ -1,5 +1,7 @@
 import random
 import prompt
+from brain_games import main as intro_main
+
 
 def is_prime(n):
     if n <= 1:
@@ -11,9 +13,7 @@ def is_prime(n):
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    name = intro_main()
     print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
     correct_answers = 0
 
@@ -25,7 +25,7 @@ def main():
 
         if (answer == "yes" and is_prime(number)) or (answer == "no" and not is_prime(number)):
             print("Correct!")
-            correct_answers+=1
+            correct_answers += 1
         else:
             correct_answer = "yes" if is_prime(number) else "no"
             print("'" + answer + "' is wrong answer ;(. Correct answer was '" + correct_answer + "'.")

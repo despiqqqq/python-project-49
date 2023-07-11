@@ -1,5 +1,6 @@
 import random
 import prompt
+from brain_games import main as intro_main
 
 
 def generate_progression():
@@ -20,9 +21,7 @@ def hide_number(progression):
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    name = intro_main()
     print("What number is missing in the progression?")
     correct_answers = 0
     while correct_answers < 3:
