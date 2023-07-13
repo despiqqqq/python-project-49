@@ -1,4 +1,3 @@
-python
 import random
 import prompt
 from brain_games import main as intro_main

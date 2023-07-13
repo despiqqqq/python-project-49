@@ -1,27 +1,52 @@
-import prompt
 import random
+import prompt
 from brain_games import main as intro_main
 
 
-def main():
+def greet_user():
     name = intro_main()
+    return name
+
+
+def ask_question():
+    random_number1 = random.randint(1, 100)
+    random_number2 = random.randint(1, 100)
+    print(f'Question: {random_number1}  {random_number2}')
+    return random_number1, random_number2
+
+
+def get_gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+
+def check_answer(user_answer, correct_answer):
+    if user_answer == correct_answer:
+        print('Correct!')
+        return True
+    else:
+        print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+        return False
+
+
+def main():
+    name = greet_user()
     print("Find the greatest common divisor of given numbers.")
     correct_answers = 0
+
     while correct_answers < 3:
-        random_number1 = random.randint(1, 100)
-        random_number2 = random.randint(1, 100)
-        print(f'Question: {random_number1}  {random_number2}')
-        while random_number2 != 0:
-            random_number1, random_number2 = random_number2, random_number1 % random_number2
-        res = prompt.string('Your answer: ')
-        if int(res) == random_number1:
+        number1, number2 = ask_question()
+        correct_answer = get_gcd(number1, number2)
+        user_answer = prompt.string('Your answer: ')
+        if check_answer(int(user_answer), correct_answer):
             correct_answers += 1
-            print('Correct!')
         else:
-            print(f"'{res}' is wrong answer ;(. Correct answer was '{random_number1}'.")
             print(f"Let's try again, {name}!")
-            return
-    print(f"Congratulations, {name}!")
+            break
+
+    if correct_answers == 3:
+        print(f"Congratulations, {name}!")
 
 
 if __name__ == '__main__':
