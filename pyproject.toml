@@ -5,7 +5,7 @@ description = ""
 authors = ["despiqqqq <117080938+despiqqqq@users.noreply.github.com>"]
 readme = "README.md"
 packages = [
-  { include = "brain_games_d" },
+  { include = "brain_games" },
 ]
 
 [tool.poetry.dependencies]
@@ -21,9 +21,9 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-brain-games = "brain_games_d.scripts.brain_games:main"
-brain-even = "brain_games_d.scripts.brain_even:main"
-brain-calc = "brain_games_d.scripts.brain_calc:main"
-brain-gcd = "brain_games_d.scripts.brain_gcd:main"
-brain-progression = "brain_games_d.scripts.brain_progression:main"
-brain-prime = "brain_games_d.scripts.brain_prime:main"
+brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
