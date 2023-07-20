@@ -35,7 +35,8 @@ def main():
             print("Correct!")
             correct_answers += 1
         else:
-            print("'" + answer + "' is wrong answer ;(. Correct answer was '" + str(hidden_number) + "'.")
+            print("'" + answer + "' is wrong answer ;(. Correct answer"
+                                 " was '" + str(hidden_number) + "'.")
             print("Let's try again, " + name + "!")
             break
 

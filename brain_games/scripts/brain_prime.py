@@ -25,12 +25,14 @@ def ask_question():
 
 
 def check_answer(number, answer):
-    if (answer == "yes" and is_prime(number)) or (answer == "no" and not is_prime(number)):
+    if (answer == "yes" and is_prime(number)) or\
+            (answer == "no" and not is_prime(number)):
         print("Correct!")
         return True
     else:
         correct_answer = "yes" if is_prime(number) else "no"
-        print("'" + answer + "' is wrong answer ;(. Correct answer was '" + correct_answer + "'.")
+        print("'" + answer + "' is wrong answer ;(. Correct answer"
+                             " was '" + correct_answer + "'.")
         return False
 
 

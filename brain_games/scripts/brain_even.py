@@ -5,7 +5,7 @@ from brain_games.scripts.brain_games import main as intro_main
 
 def main():
     name = intro_main()
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     answer = True
     c = 0  # счетчик правильных ответов
 
@@ -14,7 +14,8 @@ def main():
         print(f'Question: {random_number}')
         res = prompt.string('Your answer: ')
 
-        if (random_number % 2 == 0 and res == 'yes') or (random_number % 2 == 1 and res == 'no'):
+        if (random_number % 2 == 0 and res == 'yes') \
+                or (random_number % 2 == 1 and res == 'no'):
             print('Correct!')
             c += 1
             if c == 3:
