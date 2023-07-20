@@ -1,6 +1,6 @@
 import prompt
 import random
-from brain_games.scripts.brain_games import main as intro_main
+from brain_games import main as intro_main
 
 
 def generate_question():
