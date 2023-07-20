@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from cli import welcome_user as welcome_user
+from brain_games.scripts.cli import welcome_user as welcome_user
 
 
 def main():
-    name=welcome_user()
+    name = welcome_user()
     return name
 
 
