@@ -1,6 +1,6 @@
 import prompt
 import random
-from cli import welcome_user as welcome_user
+from brain_games.scripts.cli import welcome_user as welcome_user
 
 
 def main():

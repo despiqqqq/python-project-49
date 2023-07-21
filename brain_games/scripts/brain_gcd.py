@@ -1,6 +1,6 @@
 import random
 import prompt
-from brain_games.scripts.brain_games import main as intro_main
+from brain_games.scripts.cli import welcome_user as welcome_user
 
 
 def greet_user():
