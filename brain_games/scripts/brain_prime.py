@@ -38,7 +38,7 @@ def check_answer(number, answer):
 
 def main():
     name = greet_user()
-    print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
+    print("""Answer "yes" if given number is prime. Otherwise answer "no".""")
     correct_answers = 0
 
     while correct_answers < 3:
