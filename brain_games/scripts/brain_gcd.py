@@ -11,7 +11,7 @@ def greet_user():
 def ask_question():
     random_number1 = random.randint(1, 100)
     random_number2 = random.randint(1, 100)
-    print(f'Question: {random_number1}  {random_number2}')
+    print(f'Question: {random_number1} {random_number2}')
     return random_number1, random_number2
 
 
