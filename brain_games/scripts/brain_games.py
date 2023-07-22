@@ -4,8 +4,7 @@ from brain_games.scripts.cli import welcome_user as welcome_user
 
 
 def main():
-   welcome_user()
-
+    welcome_user()
 
 
 if __name__ == '__main__':
