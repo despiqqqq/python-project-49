@@ -13,7 +13,7 @@ def is_prime(n):
 
 
 def greet_user():
-    name = intro_main()
+    name = welcome_user()
     return name
 
 

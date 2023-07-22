@@ -26,7 +26,7 @@ def generate_question():
 
 
 def main():
-    name = intro_main()
+    name = welcome_user()
     print('What is the result of the expression?')
     correct_answers = 0
 

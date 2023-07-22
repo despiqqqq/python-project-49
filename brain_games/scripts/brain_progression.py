@@ -21,7 +21,7 @@ def hide_number(progression):
 
 
 def main():
-    name = intro_main()
+    name = welcome_user()
     print("What number is missing in the progression?")
     correct_answers = 0
     while correct_answers < 3:

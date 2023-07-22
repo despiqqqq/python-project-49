@@ -4,7 +4,7 @@ from brain_games.scripts.cli import welcome_user as welcome_user
 
 
 def greet_user():
-    name = intro_main()
+    name = welcome_user()
     return name
 
 
