@@ -4,6 +4,15 @@ version = "0.1.0"
 description = "This is a collection of games. Even number. Evaluate expression. Find the greatest common multiple. Is it a simple number. Determine the missing term of the progression."
 authors = ["despiqqqq <117080938+despiqqqq@users.noreply.github.com>"]
 readme = "README.md"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Other Audience",
+    "License :: Aladdin Free Public License (AFPL)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
 packages = [
   { include = "brain_games" },
 ]
@@ -20,14 +29,6 @@ flake8 = "^6.0.0"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-classifiers = [
-    "Development Status :: 3 - Alpha",
-    "Intended Audience :: Other Audience",
-    "License :: Aladdin Free Public License (AFPL)",
-    "Natural Language :: English",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3 :: Only",
-]
 
 
 
