@@ -11,7 +11,7 @@ def is_even(num):
 
 
 def make_game_data():
-    num_quest = randint(min0,max1)
+    num_quest = randint(min0, max1)
     answer_game = 'yes' if is_even(num_quest) else 'no'
 
     question = f'{num_quest}'
