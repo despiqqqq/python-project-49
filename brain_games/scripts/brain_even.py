@@ -1,30 +1,12 @@
-import prompt
-import random
-from brain_games.scripts.cli import welcome_user as welcome_user
+#!/usr/bin/env python3
+
+
+from brain_games.brain_game_l import play_game
+from brain_games.games import brain_even_l
 
 
 def main():
-    name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    answer = True
-    c = 0  # счетчик правильных ответов
-
-    while answer is True:
-        random_number = random.randint(1, 1000)
-        print(f'Question: {random_number}')
-        res = prompt.string('Your answer: ')
-
-        if (random_number % 2 == 0 and res == 'yes') \
-                or (random_number % 2 == 1 and res == 'no'):
-            print('Correct!')
-            c += 1
-            if c == 3:
-                print(f"Congratulations, {name}!")
-                break
-            continue
-        else:
-            print(f"Let's try again, {name}!")
-            break
+    play_game(brain_even_l)
 
 
 if __name__ == '__main__':
