@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from brain_games.cli import ask_name_user
+from brain_games.scripts.cli import ask_name_user
 
 
 def welcome():
