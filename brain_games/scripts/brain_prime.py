@@ -2,11 +2,11 @@
 
 
 from brain_games.brain_game_l import play_game
-from brain_games.games import brain_progression_l
+from brain_games.games import brain_prime_l
 
 
 def main():
-    play_game(brain_progression_l)
+    play_game(brain_prime_l)
 
 
 if __name__ == '__main__':

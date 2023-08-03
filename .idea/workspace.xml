@@ -42,7 +42,7 @@
       <recent name="D:\hexlet\brain_games" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.вуд">
+  <component name="RunManager" selected="Python.brain_progression">
     <configuration name="вуд" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-project-49" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cli" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="brain_progression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-project-49" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brain_games/scripts/cli.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brain_games/scripts/brain_progression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.brain_progression" />
         <item itemvalue="Python.вуд" />
         <item itemvalue="Python.brain_prime" />
         <item itemvalue="Python.brain_even" />
         <item itemvalue="Python.brain_games" />
-        <item itemvalue="Python.cli" />
       </list>
     </recent_temporary>
   </component>
