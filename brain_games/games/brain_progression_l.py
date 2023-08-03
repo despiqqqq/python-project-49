@@ -1,13 +1,13 @@
 from random import randint
 
-GAME_CONDITION = 'What number is missing in the progression?'
+game_q = 'What number is missing in the progression?'
 
-MIN_COUNT = 5
-MAX_COUNT = 10
-MIN_RANGE = 1
-MAX_RANGE = 100
-MIN_STEP = 2
-MAX_STEP = 17
+min_count = 5
+max_count = 10
+min_r = 1
+max_r = 100
+min_s = 2
+max_s = 17
 
 
 def make_progression(first_element, elements_count, step):
@@ -22,9 +22,9 @@ def make_progression(first_element, elements_count, step):
 
 def make_game_data():
 
-    elements_count = randint(MIN_COUNT, MAX_COUNT)
-    first_element = randint(MIN_RANGE, MAX_RANGE)
-    step = randint(MIN_STEP, MAX_STEP)
+    elements_count = randint(min_count, max_count)
+    first_element = randint(min_r, max_r)
+    step = randint(min_s, max_s)
 
     progression = make_progression(first_element, elements_count, step)
 
