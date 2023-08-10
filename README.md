@@ -21,7 +21,17 @@ brain-games:
 ```
 
 
-
+### Работа скриптов:
+#### brain-even:
+[![asciicast](https://asciinema.org/a/SYWcsWDX295qzpmT42eaLD6o6.svg)](https://asciinema.org/a/SYWcsWDX295qzpmT42eaLD6o6)
+#### brain-calc:
+[![asciicast](https://asciinema.org/a/xFJnEBIzTpntY8rUxpachbdCH.svg)](https://asciinema.org/a/xFJnEBIzTpntY8rUxpachbdCH)
+#### brain-gcd
+[![asciicast](https://asciinema.org/a/V6LzhGxBvYVmQb8PfKqZ9Gi5I.svg)](https://asciinema.org/a/V6LzhGxBvYVmQb8PfKqZ9Gi5I)
+#### brain-prime
+[![asciicast](https://asciinema.org/a/dxvEBnp4doamF7HA0ZzKJw92C.svg)](https://asciinema.org/a/dxvEBnp4doamF7HA0ZzKJw92C)
+#### brain-progression
+[![asciicast](https://asciinema.org/a/cCg2n2UzjQD0GspXMrB0ReQeS.svg)](https://asciinema.org/a/cCg2n2UzjQD0GspXMrB0ReQeS)
 
 
 
