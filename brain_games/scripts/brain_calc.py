@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 
-from brain_games.brain_game_l import play_game
-from brain_games.games import brain_calc_l
+from brain_games.game_launcher import play_game
+from brain_games.games import brain_calc
 
 
 def main():

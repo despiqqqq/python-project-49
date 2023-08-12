@@ -14,12 +14,21 @@
   - Определение простого числа.
 
 ### Установка Make
-
+#### Запуск
 ```bash
 brain-games:
 	poetry run brain-games
 ```
-
+#### Установка пакета
+```bash
+install:
+	poetry install
+```
+#### Сборка проекта
+```bash
+build:
+	poetry build
+```
 
 ### Работа скриптов:
 #### brain-even:

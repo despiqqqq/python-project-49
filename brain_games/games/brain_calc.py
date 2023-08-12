@@ -1,7 +1,7 @@
 import operator
 from random import randint, choice
 
-game_q = 'What is the result of the expression?'
+GAME_RULES = 'What is the result of the expression?'
 
 min0 = 0
 max1 = 100
